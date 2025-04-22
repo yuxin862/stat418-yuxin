@@ -1,13 +1,14 @@
 #!/bin/bash
 
-LOGFILE=$1
+LOGFILE=${1:-NASA_Jul95.log}
 
 echo "Processing: $LOGFILE"
 echo "======================================="
 
 #!/bin/bash
 
-LOGFILE=$1
+LOGFILE=${1:-NASA_Aug95.log}
+
 
 echo "Processing: $LOGFILE"
 echo "======================================="
